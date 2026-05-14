@@ -1,10 +1,10 @@
 /* --- 1. VARIABLES --- */
 :root {
-    --color-primario: #000872f5; /* Color principal (azul) */
-    --color-oscuro: #1a1a1a; /* Color oscuro para textos fuertes */
-    --color-texto: #444; /* Color general del texto */
-    --blanco: #00ccfff5; /* Color blanco */
-    --sombra: 0 10px 30px rgba(0,0,0,0.1); /* Sombra suave */
+    --color-primario: #000000; /* Color principal (azul) */
+    --color-oscuro: #0033ff; /* Color oscuro para textos fuertes */
+    --color-texto: #000000; /* Color general del texto */
+    --blanco: #00f2ff; /* Color blanco */
+    --sombra: 0 10px 30px rgba(165, 34, 34, 0.322); /* Sombra suave */
     --transicion: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1); /* Animación suave */
 }
 
@@ -18,7 +18,7 @@
 /* Configuración general del body */
 body {
     font-family: 'Poppins', sans-serif; /* Fuente */
-    background-color: #fdfdfd; /* Fondo claro */
+    background-color: #ffffff; /* Fondo claro */
     color: var(--color-texto); /* Color del texto */
     display: flex;
     flex-direction: column;
@@ -144,7 +144,7 @@ header .container {
 
 /* Hover en submenú */
 .dropdown-content li a:hover {
-    background-color: #fffffff5;
+    background-color: #f8faff;
     color: var(--color-primario);
     padding-left: 30px; /* Se mueve a la derecha */
 }
@@ -155,13 +155,13 @@ header .container {
     color: var(--blanco) !important;
     padding: 10px 25px !important;
     border-radius: 50px; /* Forma redonda */
-    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3);
+    box-shadow: 0 4px 15px rgba(0, 17, 255, 0.3);
 }
 
 /* Efecto hover del botón */
 .btn-login:hover {
     transform: translateY(-2px); /* Se levanta */
-    box-shadow: 0 6px 20px rgba(0, 123, 255, 0.4);
+    box-shadow: 0 6px 20px rgba(0, 17, 255, 0.3);
 }
 
 /* --- 5. RESPONSIVE --- */
@@ -257,7 +257,6 @@ footer {
     color: #555;
     font-size: 0.85rem;
 }
-
    /* ESTILOS CSS PARA ESTA SECCIÓN (Agrégalos a tu bloque <style>) */
 
     .seccion-info {
