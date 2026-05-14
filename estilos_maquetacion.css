@@ -144,7 +144,7 @@ header .container {
 
 /* Hover en submenú */
 .dropdown-content li a:hover {
-    background-color: #00ccfff5;
+    background-color: #fffffff5;
     color: var(--color-primario);
     padding-left: 30px; /* Se mueve a la derecha */
 }
